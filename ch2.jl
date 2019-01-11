@@ -1,6 +1,7 @@
 
 using Statistics
 using Plots
+using Printf
 
 data = [
     2, 2, 4, 6, 4, 5, 2, 3, 1, 2,
@@ -36,6 +37,16 @@ plot!(y, pdf.(Poisson(15.1), y), markershape=:auto, linestyle=:dash, label="15.1
 
 # 例
 prod(pdf.(Poisson(3.5), data))
+
+y = 0:9
+anim = @animate for lambda = [2:0.05:5  ; 4.9:-0.05:2.1]
+histogram(data, bins=-0.5:9.5,
+        xlabel="data", ylabel="Frequency", title=@sprintf("Histogram of data (lambda=%.2f)", lambda),
+        xticks=0:2:8, yticks=0:2:14, ylim=(0,14), legend=false)
+    prob = pdf.(Poisson(lambda), y)
+    plot!(y, prob*50, markershape=:auto, linestyle=:dash)
+end
+gif(anim, "fig-2-7.gif")
 
 function logL(m, data)
     sum(log.(pdf.(Poisson(m), data)))
