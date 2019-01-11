@@ -54,3 +54,17 @@ end
 
 lambda = 2:0.1:5
 plot(lambda, map(m -> logL(m, data), lambda), ylabel="log-likelihood", legend=false)
+
+lambda_hat = mean(data)
+
+plot(lambda, map(m -> logL(m, data), lambda), ylabel="log-likelihood", legend=false, xticks=2.0:0.5:5.0)
+vline!([lambda_hat], linestyle=:dash)
+
+rand(Poisson(3.5), 50)   # Rのrpoisに相当
+
+maxruns = 3000
+lambda_hat = zeros(maxruns)
+for n = 1:maxruns
+    lambda_hat[n] = mean(rand(Poisson(3.5), 50))   # 最尤推定値は平均値
+end
+histogram(lambda_hat, legend=false)
