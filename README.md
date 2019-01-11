@@ -7,10 +7,11 @@
 
 本文に書いてあるRコードをJuliaに置き換えて計算をしたりグラフを作ったりします。プログラムを使わない説明部分については、まとめることはしません。あくまでもプログラム部分のみなので、書籍を読みながらじゃないと分からないことだらけだと思います。
 
-また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なのでJAGSやStanについてはTuring.jlなどで書き換えたい……。どうなることやら。
+また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なのでWinBUGS/JAGSやStanについては、Stan.jl（別途CmdStanのインストールが必要）ではなく、Lora.jlとかTuring.jlとかを勉強して書き換えたい……。どうなることやら。
 
 以下、閲覧用のリンクです。
 
 * 第2章「確率分布と統計モデルの最尤推定」
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch2.ipynb
-
+* 第3章「一般化線型モデル（GLM）---ポアソン回帰---」（まだ途中）
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch3.ipynb
