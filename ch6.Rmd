@@ -1,0 +1,25 @@
+---
+title: "久保拓弥「」第6章"
+output: html_notebook
+---
+
+```{r}
+d <- read.csv("data4a.csv")
+summary(d)
+```
+
+```{r}
+logistic <- function(z) 1 / (1 + exp(-z))
+z <- seq(-6, 6, 0.1)
+plot(z, logistic(z), type="l")
+```
+
+```{r}
+fit.xf <- glm(cbind(y, N-y) ~ x + f, data=d, family=binomial)
+fit.xf
+```
+
+```{r}
+library(MASS)
+stepAIC(fit.xf)
+```
