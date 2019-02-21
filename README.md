@@ -19,5 +19,7 @@
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch4.ipynb
 * 第5章「GLMの尤度比検定と検定の非対称性」
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch5.ipynb
-* 第6章「GLMの応用範囲を広げる ---ロジスティック回帰など---」（途中）
+* 第6章「GLMの応用範囲を広げる ---ロジスティック回帰など---」
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch6.ipynb
+* 第7章「一般化線形混合モデル（GLMM） ---個体差のモデリング---」（途中）
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch7.ipynb
