@@ -7,7 +7,7 @@
 
 本文に書いてあるRコードをJuliaに置き換えて計算をしたりグラフを作ったりします。プログラムを使わない説明部分については、まとめることはしません。あくまでもプログラム部分のみなので、書籍を読みながらじゃないと分からないことだらけだと思います。
 
-また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なのでWinBUGS/JAGSやStanについては、[Stan.jl](https://github.com/StanJulia/Stan.jl)（別途CmdStanのインストールが必要）ではなく[Klara.jl](https://github.com/JuliaStats/Klara.jl)とか[Turing.jl](https://github.com/TuringLang/Turing.jl)とかを勉強して書き換えたい……。どうなることやら。
+また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なので[WinBUGS](http://winbugs-development.mrc-bsu.cam.ac.uk)/[JAGS](http://mcmc-jags.sourceforge.net)や[Stan](https://mc-stan.org)については、[Stan.jl](https://github.com/StanJulia/Stan.jl)（別途[CmdStan](http://mc-stan.org/interfaces/cmdstan)のインストールが必要）ではなく[Klara.jl](https://github.com/JuliaStats/Klara.jl)とか[Turing.jl](https://github.com/TuringLang/Turing.jl)とかを勉強して書き換えたい……。どうなることやら。
 
 以下、閲覧用のリンクです。
 
