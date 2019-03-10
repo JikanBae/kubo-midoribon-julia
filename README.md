@@ -12,14 +12,14 @@
 以下、閲覧用のリンクです。
 
 * 第2章「確率分布と統計モデルの最尤推定」
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch2.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_02.ipynb
 * 第3章「一般化線型モデル（GLM） ---ポアソン回帰---」
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch3.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_03.ipynb
 * 第4章「GLMのモデル選択 ---AICとモデルの予測の良さ---」
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch4.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_04.ipynb
 * 第5章「GLMの尤度比検定と検定の非対称性」
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch5.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_05.ipynb
 * 第6章「GLMの応用範囲を広げる ---ロジスティック回帰など---」
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch6.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_06.ipynb
 * 第7章「一般化線形混合モデル（GLMM） ---個体差のモデリング---」（途中）
-  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/ch7.ipynb
+  - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_07.ipynb
