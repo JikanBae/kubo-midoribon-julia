@@ -7,7 +7,7 @@
 
 本文に書いてあるRコードをJuliaに置き換えて計算をしたりグラフを作ったりします。プログラムを使わない説明部分については、まとめることはしません。あくまでもプログラム部分のみなので、書籍を読みながらじゃないと分からないことだらけだと思います。
 
-また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なので[WinBUGS](http://winbugs-development.mrc-bsu.cam.ac.uk)/[JAGS](http://mcmc-jags.sourceforge.net)や[Stan](https://mc-stan.org)については、[Stan.jl](https://github.com/StanJulia/Stan.jl)（別途[CmdStan](http://mc-stan.org/interfaces/cmdstan)のインストールが必要）ではなく[Klara.jl](https://github.com/JuliaStats/Klara.jl)とか[Turing.jl](https://github.com/TuringLang/Turing.jl)とかを勉強して書き換えたい……。どうなることやら。
+また、可能な限り非Juliaなものに頼らないでやりたい、というのを方針としたいです。なので[WinBUGS](http://winbugs-development.mrc-bsu.cam.ac.uk)/[JAGS](http://mcmc-jags.sourceforge.net)や[Stan](https://mc-stan.org)については、[Stan.jl](https://github.com/StanJulia/Stan.jl)（別途[CmdStan](http://mc-stan.org/interfaces/cmdstan)のインストールが必要）ではなく[Turing.jl](https://github.com/TuringLang/Turing.jl)とかを勉強して書き換えたい……。どうなることやら。
 
 以下、閲覧用のリンクです。
 
@@ -23,3 +23,5 @@
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_06.ipynb
 * 第7章「一般化線形混合モデル（GLMM） ---個体差のモデリング---」（途中）
   - https://nbviewer.jupyter.org/github/JikanBae/kubo-midoribon-julia/blob/master/Chapter_07.ipynb
+
+上記のものは遅々として進んでいませんが、すでに同様の試みを[matsueushiさんがやられている](https://github.com/matsueushi/kubo_analysis_julia)ので、そちらをご覧いただくほうが良いかと思います。
